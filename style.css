@@ -68,13 +68,16 @@ h1 {
   position: absolute;
   margin-left: 3rem;
   top: 4rem;
+  z-index: 5;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.7), 1px -1px 0 rgba(0, 0, 0, 0.7),
+    -1px 1px 0 rgba(0, 0, 0, 0.7), 1px 1px 0 rgba(0, 0, 0, 0.7);
 }
 
 img {
   height: 16rem;
   position: absolute;
   bottom: 0;
-  right: 1rem;
+  right: -2rem;
 }
 
 nav {
@@ -88,6 +91,8 @@ nav {
     transparent 10%,
     rgba(22, 22, 22, 0.5)
   );
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.7), 1px -1px 0 rgba(0, 0, 0, 0.7),
+    -1px 1px 0 rgba(0, 0, 0, 0.7), 1px 1px 0 rgba(0, 0, 0, 0.7);
 }
 
 nav a {
